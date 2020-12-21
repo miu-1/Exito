@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Meaning",
+    "slug": "Meaning",
+    "version": "2.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "privacy": "public",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/**/*",
+      "src/images/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "cl.Meaning.AppMovil",
+      "buildNumber": "2.2.0",
+      "supportsTablet": true,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.432650538639-rd7vq84gabj2ko6smietfp68qdldli21"
+        }
+      }
+    },
+    "android": {
+      "enableDangerousExperimentalLeanBuilds": true,
+      "package": "cl.Meaning.AppMovil",
+      "versionCode": 4,
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=cl.Meaning.AppMovil",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [],
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyA74JlrT09_0LsTLlDQ9a4Ysx41GCeVtPc",
+          "certificateHash": "29CE7FBCCBA7B611BA6E79B3FBB324272C3CBAB9"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
